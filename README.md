@@ -1,5 +1,6 @@
 # Network Tracking Analysis
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 This Python project, "Network Tracking Analysis," is designed to analyze network traffic data captured in a `.pcap` file and generate a **KML (Keyhole Markup Language)** file that can be used to visualize the geolocation information of the network traffic. It utilizes various libraries like requests, dpkt, socket, and pygeoip to accomplish this task.
 
@@ -26,9 +27,9 @@ Before you get started, ensure that you have the following dependencies installe
     ```
 
 ## Screenshots
-![](screenshots\Screenshot_2023-09-28_233923.png)
+![](https://github.com/SaherMuhamed/network-tracking-analysis/blob/main/screenshots/Screenshot_2023-09-28_233923.png)
 
-![](screenshots\Screenshot_2023-09-28_234009.png)
+![](https://github.com/SaherMuhamed/network-tracking-analysis/blob/main/screenshots/Screenshot_2023-09-28_234009.png)
 
 
 ## Usage
@@ -49,3 +50,8 @@ Before you get started, ensure that you have the following dependencies installe
 - The script will process the network traffic data, generate a KML file named `"traffic.kml,"` and save it in the same directory.
 
 - You can open the "traffic.kml" file in Google Earth or any KML-compatible application to visualize the geolocation information of the network traffic.
+
+## How to get .pcap file?
+- you can open wireshark program then, start capture some network traffics and stop & save the capture file in this `.pcap` format
+
+**Note:** after you generate `kml` file, go ahead and open <link>https://www.google.com/mymaps/</link>, and import your `kml` file.
